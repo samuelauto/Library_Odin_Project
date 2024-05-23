@@ -16,6 +16,8 @@ body{
     text-align: center; /* Centrado del texto dentro de los ítems */
     border: 1px solid #ccc; /* Bordes de los ítems */
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
 #dialog {
@@ -36,4 +38,10 @@ body{
 li{
     margin:5px;
     border:none;
+}
+
+button{
+    border-radius: 5px;
+    background-color: cornsilk;
+    font-family: 'Times New Roman', Times, serif;
 }
